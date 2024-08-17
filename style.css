@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.menu {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    /* padding: 20px 10%; */
+}
+
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+
+}
+
+.navmenu {
+    width: 40px;
+    cursor: pointer;
+    visibility: visible;
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(175, 7, 7, 0.932);
+    font-weight: 700;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.about {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.about h2 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 1%;
+    width: 600px;
+}
+
+
+span {
+    color: rgb(240, 116, 116);
+}
+.about1{
+    flex-wrap: wrap;
+    display: flex;
+}
+.about{
+    flex-basis: 50%;
+    position: relative;
+}
+.about p {
+    color: black;
+    line-height: 1.5;
+    width: 500px;
+}
+
+.about a {
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    background-color: blue;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-top: 35px;
+    box-shadow: 5px 8px 10px rgb(97, 42, 42);
+    transition: all 0.5s ease-in-out;
+    line-height: 5;
+}
+.about a:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+ .image {
+    width: 25%;
+    height: 75%;
+    position: absolute;
+    bottom: 6%;
+    /* height: 70%; */
+    cursor: pointer;
+    right: 100px;
+    
+}
+
+.image img {
+    height: 100%;
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    /* margin-top: 500px; */
+
+    transform: translateX(-50%);
+} 
+/* .pizza {
+    width: 50%;
+    height: 80%;
+    position: relative;
+    bottom: 6%; 
+    cursor: pointer;
+    margin-top: 80px; 
+    left: 50px;
+    transform: translateX(+100%);
+} */
